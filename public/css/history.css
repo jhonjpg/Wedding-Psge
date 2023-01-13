@@ -1,0 +1,103 @@
+.articulo {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.all-start {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end;
+    opacity: 0;
+    transition: 3s;
+    transform: translateX(-500px);
+}
+
+.all-start-p {
+    background-image: url("https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.articulo h6 {
+    text-align: start;
+    width: 50%;
+    font-size: 30px;
+}
+
+.articulo p {
+    width: 50%;
+    margin-top: 40px;
+    padding-left: 8px;
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+}
+
+.articulo h5 {
+    align-self: flex-end;
+    width: 50%;
+    font-size: 30px;
+}
+
+.articulo p {
+    font-size: 20px;
+    width: 50%;
+    margin-top: 40px;
+    padding-left: 8px;
+    color: rgb(59, 59, 59);
+}
+
+.history {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.history-pic {
+    width: 90%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.history-picture {
+    background-image: url("https://images.pexels.com/photos/1244627/pexels-photo-1244627.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    width: 90%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    transition: 8s;
+    transform: translateY(0);
+}
+
+#slide {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    padding: 7px;
+    background-position: center;
+}
+
+#slide img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}

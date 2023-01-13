@@ -1,0 +1,65 @@
+#listHeight {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    background-image: url("https://images.pexels.com/photos/1779491/pexels-photo-1779491.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+}
+
+#listHeight h5 {
+    width: 70%;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#listHeight button {
+    width: 20%;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: white;
+    margin-bottom: 70px;
+}
+
+#asistHeight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+    height: 850px;
+}
+
+#foto {
+    width: 80%;
+    background-image: url("https://images.pexels.com/photos/949224/pexels-photo-949224.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.formulario h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    height: 160px;
+}
